@@ -1,5 +1,6 @@
 html
--<meta name="description" content="EjamFilmEmpire - Your hub for Nollywood movies, African films, entertainment gist, funny skits, ads, and more.">
+
+-<<meta name="google-site-verification" content="ReMxZUCeCPBciVsHydF211M59U-fW4xNgTS58JlPTwg" /> name="description" content="EjamFilmEmpire - Your hub for Nollywood movies, African films, entertainment gist, funny skits, ads, and more.">
 <meta name="keywords" content="EjamFilmEmpire, Nollywood movies, African film, funny skits, entertainment news, Nigerian movies, ads, acting, short films, comedy videos, Ejam Film Empire">
 <meta name="author" content="EjamFilmEmpire">
 <meta name="robots" content="index, follow">
