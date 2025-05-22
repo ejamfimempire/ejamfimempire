@@ -1,40 +1,86 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>EJAM FILM EMPIRE.
- The cluster of africa movies</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejam Film Empire</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ejam Film Empire</h1>
+      <p class="subtitle">The cluster of africa movies </p>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="videos.html">Videos</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to Ejam Film Empire</h2>
+      <p>Your The best of Nollywood movies</p>
+    </div>
+  </section>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+  <section class="section">
+    <div class="container">
+      <h2>Featured Movies</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Movie Title</h3>
+          <p>A short description about this Nollywood film.</p>
+        </div>
+        <div class="card">
+          <h3>Another Movie</h3>
+          <p>Another exciting Nollywood blockbuster you shouldn't miss!</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>EJAM FILM EMPIRE</strong></a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-									</ul>
-								</header>
+  <section class="section dark">
+    <div class="container">
+      <h2>Funny Skits</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Skit Title</h3>
+          <p>Short and hilarious skit description.</p>
+        </div>
+        <div class="card">
+          <h3>Laugh More</h3>
+          <p>Another trending comedy skit from our best talents.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-							<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>Welcome to EJAM FILM EMPIRE</h1>
-									</header>
+  <section class="section">
+    <div class="container">
+      <h2>Entertainment News</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Article Title</h3>
+          <p>Write and post your entertainment gist, actor profiles, and industry news here.</p>
+        </div>
+        <div class="card">
+          <h3>Latest Trends</h3>
+          <p>Catch up with what’s buzzing in Nollywood and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-									<span class="image main"><img src="images/pic11.jpg" alt="EJAM FILM EMPIRE banner" /></span>
-
-									<p><strong>EJAM FILM EMPIRE</strong> is your premier destination for authentic Nollywood entertainment, comedy skits, and African storytelling. We bring culture, laughter, and drama to life with original content that reflects the heart of our people and the spirit of African cinema. From gripping drama series to hilarious short videos, we are committed to showcasing talents and bringing joy to millions across the globe.</p>
-
-									<p>Join us on a journey of storytelling excellence as we spotlight the richness of Nollywood films and the vibrant energy of African comedy. Whether you're here for laughs or stories that move your soul, <strong>EJAM FILM EMPIRE</strong> delivers entertainment with a purpose.</p
+  <footer>
+    <div class="container">
+      <p>Contact: info@ejamfilmempire.com | Instagram: @ejamfilmempire</p>
+      <p>&copy; 2025 Ejam Film Empire. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
