@@ -1,69 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ejam Film Empire</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Ejam Film Empire</h1>
-      <p class="subtitle">Nollywood | Skits | African Entertainment</p>
-      <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="videos.html">Videos</a>
-        <a href="news.html">News</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <section class="hero">
-    <div class="container">
-      <h2>Your #1 Source for Nollywood, Skits & Entertainment</h2>
-      <p>Explore the latest African movies, comedy skits, and industry gist.</p>
-    </div>
-  </section>
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
 
-  <section class="section">
-    <div class="container">
-      <h2>Featured Movies</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Movie Title</h3>
-          <p>A short description about this Nollywood film.</p>
-        </div>
-        <div class="card">
-          <h3>Another Movie</h3>
-          <p>Highlight of this must-watch African story.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+/* Containers */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
 
-  <section class="section dark">
-    <div class="container">
-      <h2>Funny Skits</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Skit Title</h3>
-          <p>Short and hilarious description.</p>
-        </div>
-        <div class="card">
-          <h3>Another Skit</h3>
-          <p>Behind-the-scenes fun from our latest shoot.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+/* Header */
+header {
+  background: #111;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Ejam Film Empire. All Rights Reserved.</p>
-    </div>
-  </footer>
-</body>
-</html>
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+header .subtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+nav a:hover,
+nav .active {
+  background: #ff5722;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #111, #444);
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Section Styling */
+.section {
+  background-color: #fff;
+  padding: 3rem 0;
+}
+
+.section.dark {
+  background-color: #f1f1f1;
+}
+
+/* Card Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 1.5rem 0;
+}
