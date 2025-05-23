@@ -24,7 +24,7 @@
   <section class="hero">
     <div class="container">
       <h2>Welcome to Ejam Film Empire</h2>
-      <p>Your The best of Nollywood movies</p>
+      <p> The best of Nollywood movies</p>
     </div>
   </section>
 
